@@ -1,0 +1,7 @@
+applications:
+  - name: mypaltraker
+    path: build/libs/pal-tracker.jar
+    routes:
+      - route: harish-paltracker.apps.pcf.paltraining.perficient.com
+    env:
+      WELCOME_MESSAGE: Hello from the review environment
